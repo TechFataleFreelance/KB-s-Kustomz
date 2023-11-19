@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'glacial';
+    src: url('src/assets/Fonts/glacial-indifference.regular.otf');
+}
+
+@font-face {
+    font-family: 'glacialBold';
+    src: url('src/assets/Fonts/glacial-indifference.bold.otf');
+}
+
+.active{
+    color:#545454;
+    font-weight: 900;
+    text-decoration: overline;
+}
+
+body::-webkit-scrollbar{
+    width:10px;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 255, 255, 0.269);
+    border-radius: 20px;
+    height:10%;
+    box-shadow: inset 0px 0px 3px 1px;
+}

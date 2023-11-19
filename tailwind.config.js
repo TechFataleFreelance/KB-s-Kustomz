@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      fontFamily: {
+        glacial: ["glacial", 'sans-serif'],
+        glacialBold: ['glacialBold', "san-serif"]
+      }
+    },
+    plugins: [],
+  }
 }
-

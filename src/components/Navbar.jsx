@@ -13,9 +13,9 @@ export default function Navbar() {
             </Link>
             
                 <div class="flex items-center justify-end text-white font-glacialBold bg-black w-full h-[30%]">
-                    <a class="inline " href="tel: 815-562-5624">
+                    <a class="inline " href="tel: 815-751-7039">
                     <img src="src/assets/Icons/icons8-phone-50 (1).png" class="mb-[2px] mr-[10px] inline w-[12%]"></img>
-                    815-562-5624
+                    815-751-7039
                     </a>
                 </div>
                 <ul class=" flex items-center justify-evenly font-glacial bg-white w-full h-[70%]">

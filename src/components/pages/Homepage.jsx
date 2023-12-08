@@ -1,6 +1,5 @@
 import React from "react";
-import { useRef } from "react";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import Carousel from "../Carousel";
 import { useState } from 'react'
 
@@ -43,7 +42,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
 
     return (
         <>
-            <div class=" xl:flex-row xl:flex lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-row xs:flex xs:flex-col  w-full h-[85%]  bg-black">
+            <div class="  xl:flex-row xl:flex lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-row xs:flex xs:flex-col  w-full h-[85%]  bg-black">
              
                 <div class="flex xs:w-full items-center justify-center text-white font-glacial w-[50%] h-full bg-red-">
                     <div class="text-center ">
@@ -70,17 +69,17 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 </motion.div>
                
             </div>
-            <div class="lg:w-full xl:w-full md:w-full sm:w-full xs:w-full lg:h-auto xl:h-auto sm:h-auto md:h-auto xs:h-[100%] overflow-hidden border-t-2 p-[%] pt-[0] border-t-white overflow-x-hidden bg-black ">
-                <div onClick={handleScrolltoTop} style={{display:scrollDisplay}} className="hover:bg-gray-700 hover:text-white shadow-2xl font-glacial cursor-pointer fixed bottom-[2%] right-[2%] z-[999] p-3 bg-white">
+            <div   class="lg:w-full xl:w-full md:w-full sm:w-full xs:w-full lg:h-auto xl:h-auto sm:h-auto md:h-auto xs:h-[100%] overflow-hidden border-t-2 p-[%] pt-[0] border-t-white overflow-x-hidden bg-black ">
+                <div onClick={handleScrolltoTop} style={{display:scrollDisplay}} className="hover:bg-gray-700 hover:text-white shadow-2xl font-glacial cursor-pointer fixed bottom-[2%] sm:text-[16px] xs:text-[11px] right-[2%] z-[999] sm:p-3 xs:p-[4px] bg-white">
                     <h1>Back To Top</h1>
                 </div>
                 <Carousel animation={carouselAnimation} display={carouselDisplay} onXout={handleXout}/>
-            <motion.div animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class="absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen hover:scale-105 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  flex items-center justify-center bg-gray-700 ">
+            <motion.div id='gallery'  animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class=" absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen sm:hover:scale-105 xs:hover:scale-100 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  flex items-center justify-center bg-gray-700 ">
                     <img className="mr-[10px] " src="src/assets/Icons/icons8-gallery-25.png" alt="" />
                     <h2 className="mr-[5px] font-glacial text-white">Carousel</h2>
                 </motion.div>
-                <motion.div animate={gridAnimation}  class="overflow-y-hidden xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%]" >
-                  <motion.img whileHover={{scale:1.05}}  transition={{ type:'spring'}} src="src/assets/Images/IMG_0170.JPG" className='w-[15%] brightness-125 h-[42%] p-[7px] inline' alt="" />
+                <motion.div  animate={gridAnimation}  class="overflow-y-hidden xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%]" >
+                  <motion.img  whileHover={{scale:1.05}}  transition={{ type:'spring'}} src="src/assets/Images/IMG_0170.JPG" className='w-[15%] brightness-125 h-[42%] p-[7px] inline' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0172.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0244.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0245.jpg" className='w-[15%] brightness-[135%] h-[42%]  p-[7px] inline ' alt="" />

@@ -8,6 +8,7 @@ export default function Homepage() {
 const [carouselDisplay, setCarouseldisplay] = useState('none')
 const [carouselAnimation, setCarouselanimation] = useState('')
 const [gridAnimation, setGridanimation] = useState('')
+const [scrollDisplay, setScrolldisplay] = useState('none')
 
     const handleGalleryScroll = () => {
         window.scrollTo({
@@ -26,44 +27,59 @@ const [gridAnimation, setGridanimation] = useState('')
         setGridanimation({opacity:[1]})
         setCarouselanimation({opacity:0})
     }
-   
+   const handleScrolldisplay = () => {
+        if(window.scrollY>800){
+            setScrolldisplay('block')
+        }else{
+            setScrolldisplay('none')
+        }
+   }
+
+   const handleScrolltoTop = () => {
+        window.scrollTo({top:0, behavior:'smooth'})
+   }
+
+   window.onscroll=handleScrolldisplay
 
     return (
         <>
-            <div class=" flex w-full h-[85%] bg-black">
+            <div class=" xl:flex-row xl:flex lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-row xs:flex xs:flex-col  w-full h-[85%]  bg-black">
              
-                <div class="flex items-center justify-center text-white font-glacial w-[50%] h-full bg-red-">
+                <div class="flex xs:w-full items-center justify-center text-white font-glacial w-[50%] h-full bg-red-">
                     <div class="text-center ">
-                        <motion.h1 animate={{y:[20,0], opacity:[0,1]}} transition={{duration:1, delay:0.3}} class="text-[90px]">KB's Kustomz</motion.h1>
-                        <motion.h3 animate={{y:[20,0], opacity:[0,1]}} transition={{duration:1, delay:0.6}}  class="text-[30px]">Custom Paint & Body Shop</motion.h3 >
-                        <motion.h4 animate={{y:[20,0], opacity:[0,1]}} transition={{duration:1, delay:0.6}}  class="pt-[1%]">Wyanet, Illinois</motion.h4 >
+                        <motion.h1 animate={{y:[20,0], opacity:[0,1]}} transition={{duration:1, delay:0.3}} class=" xl:text-[90px] lg:text-[60px] md:text-[50px] sm:text-[45px] xs:text-[50px] ">KB's Kustomz</motion.h1>
+                        <motion.h3 animate={{y:[20,0], opacity:[0,1]}} transition={{duration:1, delay:0.6}}  class="xl:text-[30px] lg:text-[22pxpx] md:text-[15px] sm:text-[18px] xs:text-[20px]">Custom Paint & Body Shop</motion.h3 >
+                        <motion.h4 animate={{y:[20,0], opacity:[0,1]}} transition={{duration:1, delay:0.6}}  class="pt-[1%] ">Wyanet, Illinois</motion.h4 >
                     </div>
                    
                 </div>
-                <div class="h-full w-[50%] flex items-center justify-center bg-yellow ">
+                <div class="h-full w-[50%] xs:w-full flex xs:items-top  lg:items-center md:items-center xl:items-center sm:items-center justify-center bg-yellow ">
                 <motion.iframe 
                 animate={{opacity:[0,1]}}
                 transition={{duration:1.5, delay:0.6}}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1525.927321868591!2d-89.59678379127288!3d41.38733613532469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88098ee5b6292f01%3A0x7097f7c48b058203!2sCounty%20Rd%201650%20N%2C%20Illinois!5e1!3m2!1sen!2sus!4v1701754849896!5m2!1sen!2sus" 
                 width="600" 
                 height="450"
-                class="rounded-[22px] " ></motion.iframe>
+                class="rounded-[22px] xl:w-[600px] xl:h-[450px] lg:w-[450px] lg:h-[350px]  md:w-[400px] md:h-[360px] sm:w-[330px] sm:h-[300px] xs:w-[280px] xs:h-[200px]" ></motion.iframe>
                 </div>
                 <motion.div animate={{opacity:[0,1]}} transition={{duration:3, delay:2, }} class="pb-[10px] animate-bounce font-glacial absolute flex  items-center text-white w-full justify-center bottom-0"> 
-                    <div   onClick={handleGalleryScroll} class="hover:cursor-pointer flex flex-col items-center">
-                        <h1  class='text-[16px]'>Gallery</h1>
-                        <img src='src/assets/Icons/icons8-arrow-50.png' class=' w-[50%]'></img>
+                    <div  onClick={handleGalleryScroll} class="hover:cursor-pointer flex flex-col items-center">
+                        <h1  class='text-[16px] xs:text-[14px]'>Gallery</h1>
+                        <img src='src/assets/Icons/icons8-arrow-50.png' class=' w-[50%] xs:w-[35%]'></img>
                     </div>
                 </motion.div>
                
             </div>
-            <div class="w-full border-t-2 p-[%] pt-[0] border-t-white overflow-x-hidden bg-black ">
+            <div class="lg:w-full xl:w-full md:w-full sm:w-full xs:w-full lg:h-auto xl:h-auto sm:h-auto md:h-auto xs:h-[100%] overflow-hidden border-t-2 p-[%] pt-[0] border-t-white overflow-x-hidden bg-black ">
+                <div onClick={handleScrolltoTop} style={{display:scrollDisplay}} className="hover:bg-gray-700 hover:text-white shadow-2xl font-glacial cursor-pointer fixed bottom-[2%] right-[2%] z-[999] p-3 bg-white">
+                    <h1>Back To Top</h1>
+                </div>
                 <Carousel animation={carouselAnimation} display={carouselDisplay} onXout={handleXout}/>
-            <div onClick={handleCarousel} class="absolute cursor-pointer hover:bg-gray-600 hover:scale-105 transition-all active:bg-gray-500  p-1 rounded-md mt-[1.2%] right-[8.5%] flex items-center justify-center bg-gray-700 ">
+            <motion.div animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class="absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen hover:scale-105 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  flex items-center justify-center bg-gray-700 ">
                     <img className="mr-[10px] " src="src/assets/Icons/icons8-gallery-25.png" alt="" />
                     <h2 className="mr-[5px] font-glacial text-white">Carousel</h2>
-                </div>
-                <motion.div animate={gridAnimation}  class="overflow-y-hidden ml-[6%] bg-oran w-full h-auto  pt-[4.5%]" >
+                </motion.div>
+                <motion.div animate={gridAnimation}  class="overflow-y-hidden xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%]" >
                   <motion.img whileHover={{scale:1.05}}  transition={{ type:'spring'}} src="src/assets/Images/IMG_0170.JPG" className='w-[15%] brightness-125 h-[42%] p-[7px] inline' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0172.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0244.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
@@ -73,16 +89,17 @@ const [gridAnimation, setGridanimation] = useState('')
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0174.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0169.jpg" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0234.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0238.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0230.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0175.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0176.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0179.jpg" className='w-[29%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0238.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0241.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0178.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0188.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0177.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0186.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0223.jpg" className='w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0225.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                 </motion.div>
             </div>
         </>

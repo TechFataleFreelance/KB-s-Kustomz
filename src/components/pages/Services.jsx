@@ -23,7 +23,7 @@ const handleHover = () =>  {
             <source src='src/assets/Video/Untitled design.mp4' type='video/mp4'/>
           </video>
           <div className="w-full flex relative bottom-[8%] itmes-center justify-center ">
-            <a href="tel: 815-562-5624" class="hover:bg-opacity-100 bg-opacity-60 bg-gray-600 text-white font-glacialBold rounded-b-[20px] p-2 w-full text-center rounded-t-none text-[20px] ">Call For a Free Quote</a>
+            <a href="tel: 815-751-7039" class="hover:bg-opacity-100 bg-opacity-60 bg-gray-600 text-white font-glacialBold rounded-b-[20px] p-2 w-full text-center rounded-t-none text-[20px] ">Call For a Free Quote</a>
           </div>
         </motion.div>
       </motion.div>
@@ -38,7 +38,7 @@ const handleHover = () =>  {
             <source src='src/assets/Video/BodyShopStockVid.mp4' type='video/mp4'/>
           </video>
           <div className="w-full flex relative bottom-[8%] itmes-center justify-center ">
-            <a href="tel: 815-562-5624" class="hover:bg-opacity-100 bg-opacity-60 bg-gray-600 text-white font-glacialBold rounded-b-[20px] p-2 w-full text-center rounded-t-none text-[20px] ">Call For a Free Quote</a>
+            <a href="tel: 815-751-7039" class="hover:bg-opacity-100 bg-opacity-60 bg-gray-600 text-white font-glacialBold rounded-b-[20px] p-2 w-full text-center rounded-t-none text-[20px] ">Call For a Free Quote</a>
           </div>
          
         </motion.div>

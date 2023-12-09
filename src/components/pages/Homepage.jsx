@@ -76,7 +76,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 </motion.div>
                
             </div>
-            <div   class="lg:w-full xl:w-full md:w-full sm:w-full xs:w-full lg:h-auto xl:h-auto sm:h-auto md:h-auto xs:h-[100%] overflow-hidden border-t-2 p-[%] pt-[0] border-t-white overflow-x-hidden bg-black ">
+            <div   class="lg:w-full xl:w-full md:w-full sm:w-full xs:w-full lg:h-auto xl:h-auto sm:h-auto md:h-auto xs:h-[85%] overflow-hidden border-t-2 p-[%] pt-[0] border-t-white overflow-x-hidden bg-black ">
                 <div onClick={handleScrolltoTop} style={{display:scrollDisplay}} className="hover:bg-gray-700 hover:text-white shadow-2xl font-glacial cursor-pointer fixed bottom-[2%] sm:text-[16px] xs:text-[11px] right-[2%] z-[999] sm:p-3 xs:p-[4px] bg-white">
                     <h1>Back To Top</h1>
                 </div>

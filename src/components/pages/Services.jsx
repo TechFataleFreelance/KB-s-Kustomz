@@ -17,7 +17,7 @@ const Services = () => {
      
       <button className='fixed bg-white sm:w-full xs:w-[175px] sm:rounded-none xs:rounded-lg font-glacial bg-opacity-[85%] active:text-yellow-500 hover:bg-opacity-100 hover:font-glacialBold transition-all sm:right-0 sm:left-0 xs:left-[-3px] sm:bottom-0 xs:bottom-[25px] tracking-wider'><a href="tel: 815-751-7039">Call for a <span className='text-green-800'>Free</span> Quote</a></button>
       <motion.div animate={{ opacity: [0, 1] }} transition={{ duration: 2, delay: 0.1 }} className="bg-none xs:p-3 w-[50%] h-full lg:p-0 flex items-center justify-center">
-        <motion.div whileHover={{ scale: 1.02 }} onMouseOver={{ handleHover }} transition={{ duration: 1.3, type: 'spring' }} className="border-solid border-white border-[2px] bg-gray-600   cursor-pointer  w-[480px] sm:h-[530px] rounded-none ">
+        <motion.div whileHover={{ scale: 1.02 }} onMouseOver={{ handleHover }} transition={{ duration: 1.3, type: 'spring' }} className="border-solid border-white border-[2px] bg-gray-600   cursor-default  w-[480px] sm:h-[530px] rounded-none ">
 
           <div className="flex items-center justify-center h-[210px]">
             <img src="/icons/icons8-paint-sprayer-50.png" className="w-[75px] rounded-lg bg-black p-[15px]"></img>
@@ -38,7 +38,7 @@ const Services = () => {
 
       </motion.div>
       <motion.div animate={{ opacity: [0, 1] }} transition={{ duration: 2, delay: 0.1 }} className=" bg-none xs:p-3 sm:p-0 w-[50%] h-full flex items-center justify-center">
-        <motion.div whileHover={{ scale: 1.02 }} onMouseOver={{ handleHover }} transition={{ duration: 1.3, type: 'spring' }} className="border-solid border-white border-[2px] bg-gray-600    cursor-pointer  w-[480px] sm:h-[530px] rounded-none">
+        <motion.div whileHover={{ scale: 1.02 }} onMouseOver={{ handleHover }} transition={{ duration: 1.3, type: 'spring' }} className="border-solid border-white border-[2px] bg-gray-600    cursor-default  w-[480px] sm:h-[530px] rounded-none">
           <div className="flex items-center justify-center h-[210px]">
             <img src="/icons/icons8-car-service-50.png" className=" w-[75px] rounded-lg bg-black p-[15px]"></img>
           </div>

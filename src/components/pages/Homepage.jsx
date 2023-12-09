@@ -81,7 +81,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                     <h1>Back To Top</h1>
                 </div>
                 <Carousel animation={carouselAnimation} display={carouselDisplay} onXout={handleXout}/>
-            <motion.div id='gallery'  animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class=" absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen sm:hover:scale-105 xs:hover:scale-100 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  items-center justify-center bg-gray-700 flex">
+            <motion.div id='gallery'  animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class=" absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen sm:hover:scale-105 xs:hover:scale-100 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  items-center justify-center bg-gray-700 2xl:hidden xs:flex">
                     <img className="mr-[10px] " src="/icons/icons8-gallery-25.png" alt="" />
                     <h2 className="mr-[5px] font-glacial text-white">Carousel</h2>
                 </motion.div>

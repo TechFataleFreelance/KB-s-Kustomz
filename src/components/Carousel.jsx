@@ -9,11 +9,20 @@ const Carousel = (props) => {
   
 
   const handleLeft = () => {
-    carousel.current.scrollLeft -= 800
+    if(window.innerWidth > 500){
+      carousel.current.scrollLeft -= 800
+    }else{
+      carousel.current.scrollLeft -= 400
+    }
+   
   }
 
   const handleRight = () => {
-    carousel.current.scrollLeft += 800
+    if(window.innerWidth > 500){
+      carousel.current.scrollLeft += 800
+    }else{
+      carousel.current.scrollLeft += 400
+    }
   }
 
 

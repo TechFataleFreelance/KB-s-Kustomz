@@ -53,7 +53,6 @@ const Carousel = (props) => {
         <img className="w-[100%] bg-[url('/images/IMG_0186.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
         <img className="w-[100%] bg-[url('/images/IMG_0223.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
         <img className="w-[100%] bg-[url('/images/IMG_0225.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
-        <img className="w-[100%] bg-[url('/images/IMG_0225.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
       </div>
     </motion.div>
 

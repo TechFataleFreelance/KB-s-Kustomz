@@ -1,13 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Carousel from "../Carousel";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Homepage() {
-const [carouselDisplay, setCarouseldisplay] = useState('none')
+const [carouselDisplay, setCarouseldisplay] = useState('')
 const [carouselAnimation, setCarouselanimation] = useState('')
 const [gridAnimation, setGridanimation] = useState('')
 const [scrollDisplay, setScrolldisplay] = useState('none')
+
+
+ 
 
     const handleGalleryScroll = () => {
         window.scrollTo({
@@ -15,6 +18,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
             behavior:'smooth'
         })
     }
+
 
     const handleCarousel = () => {
         setCarouseldisplay('inline')
@@ -24,6 +28,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
         setCarouselanimation({opacity:[1]})
     }
     const handleXout = () => {
+        setCarouseldisplay('none')
         setCarouseldisplay('none')
         setGridanimation({opacity:[1]})
         setCarouselanimation({opacity:0})
@@ -64,7 +69,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 class="rounded-[22px] xl:w-[600px] xl:h-[450px] lg:w-[450px] lg:h-[350px]  md:w-[400px] md:h-[360px] sm:w-[330px] sm:h-[300px] xs:w-[280px] xs:h-[200px]" ></motion.iframe>
                 </div>
                 <motion.div animate={{opacity:[0,1]}} transition={{duration:3, delay:2, }} class="pb-[10px] animate-bounce font-glacial absolute flex  items-center text-white w-full justify-center bottom-0"> 
-                    <div  onClick={handleGalleryScroll} class="hover:cursor-pointer flex flex-col items-center">
+                    <div  onClick={handleGalleryScroll} class="hover:cursor-pointer sm:flex xs:hidden flex-col items-center">
                         <h1  class='text-[16px] xs:text-[14px]'>Gallery</h1>
                         <img src='/icons/icons8-arrow-50.png' class=' w-[50%] xs:w-[35%]'></img>
                     </div>
@@ -76,11 +81,11 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                     <h1>Back To Top</h1>
                 </div>
                 <Carousel animation={carouselAnimation} display={carouselDisplay} onXout={handleXout}/>
-            <motion.div id='gallery'  animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class=" absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen sm:hover:scale-105 xs:hover:scale-100 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  flex items-center justify-center bg-gray-700 ">
+            <motion.div id='gallery'  animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class=" absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen sm:hover:scale-105 xs:hover:scale-100 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  items-center justify-center bg-gray-700 flex">
                     <img className="mr-[10px] " src="/icons/icons8-gallery-25.png" alt="" />
                     <h2 className="mr-[5px] font-glacial text-white">Carousel</h2>
                 </motion.div>
-                <motion.div  animate={gridAnimation}  class="overflow-y-hidden xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%]" >
+                <motion.div  animate={gridAnimation}  class="overflow-y-hidden  xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%] sm:block xs:hidden " >
                   <motion.img  whileHover={{scale:1.05}}  transition={{ type:'spring'}} src="/images/IMG_0170.JPG" className='w-[15%] brightness-125 h-[42%] p-[7px] inline' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/images/IMG_0172.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/images/IMG_0244.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />

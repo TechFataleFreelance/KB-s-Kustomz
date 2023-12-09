@@ -19,7 +19,7 @@ const Carousel = (props) => {
 
 
   return (
-    <motion.div animate={props.aniamtion} ref={slideShow} style={{display:props.display}}>
+    <motion.div animate={props.aniamtion} ref={slideShow} style={{display:props.display}} className='sm:hidden xs:visible'>
     <img onClick={props.onXout}  src="/icons/icons8-x-64 (1).png" alt="" class="absolute right-[16.8%] w-[34px] cursor-pointer hover:scale-110 transition-all hover:bg-red-600 active:scale-100 xs:bg-red-600 lg:bg-white md:bg-white sm:bg-white xl:bg-white rounded-[100px] p-2 mt-[8.8%] z-[5]" />
       <img onClick={handleLeft} src="/icons/icons8-arrow-64.png" className="hover:scale-110 hover:shadow-sm active:shadow-none active:scale-100 hover:shadow-black rounded-[100px] transition-all xl:bg-transparent lg:bg-transparent sm:bg-transparent md:bg-transparent xs:bg-white cursor-pointer absolute z-[9] w-[7%] xs:mt-[320px] xl:mt-[295px] lg:mt-[290px] md:mt-[270px] sm:mt-[255px] left-[15.5%] rotate-180 " alt="" />
       <img onClick={handleRight} src="/icons/icons8-arrow-64.png" className="hover:scale-110 hover:shadow-sm active:shadow-none active:scale-100 hover:shadow-black rounded-[100px] transition-all xl:bg-transparent lg:bg-transparent sm:bg-transparent md:bg-transparent xs:bg-white cursor-pointer absolute xl:mt-[295px] lg:mt-[290px] md:mt-[270px] sm:mt-[255px] z-[9] w-[7%] xs:mt-[320px] right-[17.5%]" alt="" />

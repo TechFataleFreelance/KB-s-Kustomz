@@ -26,7 +26,7 @@ const Services = () => {
 
           <h1 className=' font-glacial  font-semibold text-[23px] drop-shadow-xl pt-[5px] pb-[5px] text-center bg-black text-white'>Custom Paint</h1>
           <div className="">
-            <video autoPlay muted loop className='sm:block xs:hidden '>
+            <video muted loop className='sm:block xs:hidden '>
               <source src='/Video/Untitled design.mp4' type='video/mp4' />
 
             </video>
@@ -44,7 +44,7 @@ const Services = () => {
           </div>
 
           <h1 className=' font-glacial font-semibold text-[23px] drop-shadow-xl pt-[5px] pb-[5px] text-center  bg-black text-white'>Body Shop</h1>
-          <video autoPlay muted loop className="sm:block xs:hidden ">
+          <video  muted loop className="sm:block xs:hidden ">
             <source src='/Video/BodyShopStockVid.mp4' type='video/mp4' />
           </video>
 

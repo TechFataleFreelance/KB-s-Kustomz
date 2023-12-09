@@ -64,7 +64,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 <motion.div animate={{opacity:[0,1]}} transition={{duration:3, delay:2, }} class="pb-[10px] animate-bounce font-glacial absolute flex  items-center text-white w-full justify-center bottom-0"> 
                     <div  onClick={handleGalleryScroll} class="hover:cursor-pointer flex flex-col items-center">
                         <h1  class='text-[16px] xs:text-[14px]'>Gallery</h1>
-                        <img src='src/assets/Icons/icons8-arrow-50.png' class=' w-[50%] xs:w-[35%]'></img>
+                        <img src='/icons/icons8-arrow-50.png' class=' w-[50%] xs:w-[35%]'></img>
                     </div>
                 </motion.div>
                
@@ -75,7 +75,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 </div>
                 <Carousel animation={carouselAnimation} display={carouselDisplay} onXout={handleXout}/>
             <motion.div id='gallery'  animate={{opacity:[0,1]}} transition={{delay:1.5}} onClick={handleCarousel} class=" absolute cursor-pointer hover:bg-gray-600 xl:w-auto lg:w-auto md:w-auto sm:w-auto xs:w-screen sm:hover:scale-105 xs:hover:scale-100 transition-all active:bg-gray-500  p-1 xs:rounded-none md:rounded-md sm:rounded-md xl:rounded-md lg:rounded-md xl:mt-[1.2%] lg:mt-[1.2%] sm:mt-[2.3%] md:mt-[0.98%] xs:mt-[9%] xl:right-[8.5%] lg:right-[8.5%] md:right-[8.5%] sm:right-[8.5%] xs:right-0  flex items-center justify-center bg-gray-700 ">
-                    <img className="mr-[10px] " src="src/assets/Icons/icons8-gallery-25.png" alt="" />
+                    <img className="mr-[10px] " src="/icons/icons8-gallery-25.png" alt="" />
                     <h2 className="mr-[5px] font-glacial text-white">Carousel</h2>
                 </motion.div>
                 <motion.div  animate={gridAnimation}  class="overflow-y-hidden xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%]" >

@@ -20,14 +20,14 @@ const Services = () => {
         <motion.div whileHover={{ scale: 1.02 }} onMouseOver={{ handleHover }} transition={{ duration: 1.3, type: 'spring' }} className="border-solid border-white border-[2px] bg-gray-600   cursor-pointer  w-[480px] sm:h-[530px] rounded-none ">
 
           <div className="flex items-center justify-center h-[210px]">
-            <img src="src/assets/Icons/icons8-paint-sprayer-50.png" className="w-[75px] rounded-lg bg-black p-[15px]"></img>
+            <img src="/icons/icons8-paint-sprayer-50.png" className="w-[75px] rounded-lg bg-black p-[15px]"></img>
 
           </div>
 
           <h1 className=' font-glacial  font-semibold text-[23px] drop-shadow-xl pt-[5px] pb-[5px] text-center bg-black text-white'>Custom Paint</h1>
           <div className="">
             <video autoPlay muted loop className=' '>
-              <source src='src/assets/Video/Untitled design.mp4' type='video/mp4' />
+              <source src='/Video/Untitled design.mp4' type='video/mp4' />
 
             </video>
         
@@ -40,12 +40,12 @@ const Services = () => {
       <motion.div animate={{ opacity: [0, 1] }} transition={{ duration: 2, delay: 0.1 }} className=" bg-none xs:p-3 sm:p-0 w-[50%] h-full flex items-center justify-center">
         <motion.div whileHover={{ scale: 1.02 }} onMouseOver={{ handleHover }} transition={{ duration: 1.3, type: 'spring' }} className="border-solid border-white border-[2px] bg-gray-600    cursor-pointer  w-[480px] sm:h-[530px] rounded-none">
           <div className="flex items-center justify-center h-[210px]">
-            <img src="src/assets/Icons/icons8-car-service-50.png" className=" w-[75px] rounded-lg bg-black p-[15px]"></img>
+            <img src="/icons/icons8-car-service-50.png" className=" w-[75px] rounded-lg bg-black p-[15px]"></img>
           </div>
 
           <h1 className=' font-glacial font-semibold text-[23px] drop-shadow-xl pt-[5px] pb-[5px] text-center bg-black text-white'>Body Shop</h1>
           <video autoPlay muted loop className=" ">
-            <source src='src/assets/Video/BodyShopStockVid.mp4' type='video/mp4' />
+            <source src='/Video/BodyShopStockVid.mp4' type='video/mp4' />
           </video>
 
 

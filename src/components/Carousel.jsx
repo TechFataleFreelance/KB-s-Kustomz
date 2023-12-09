@@ -1,12 +1,12 @@
 import React from 'react'
 import { useRef } from 'react'
-import { useState } from 'react'
+
 import { motion } from 'framer-motion'
 
 const Carousel = (props) => {
   const carousel = useRef()
   const slideShow = useRef()
-  const [carouselDisplay, setCarouseldisplay] = useState()
+  
 
   const handleLeft = () => {
     carousel.current.scrollLeft -= 800

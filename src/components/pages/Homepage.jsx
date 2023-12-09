@@ -18,7 +18,9 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
 
     const handleCarousel = () => {
         setCarouseldisplay('inline')
-        setGridanimation({opacity:[0.2]})
+        if((window.innerWidth > 500)){
+            setGridanimation({opacity:[0.2]})
+        }
         setCarouselanimation({opacity:[1]})
     }
     const handleXout = () => {

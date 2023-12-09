@@ -26,7 +26,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
     const handleXout = () => {
         setCarouseldisplay('none')
         setGridanimation({opacity:[1]})
-        setCarouselanimation({display:'none'})
+        setCarouselanimation({opacity:0})
     }
    const handleScrolldisplay = () => {
         if(window.scrollY>800){

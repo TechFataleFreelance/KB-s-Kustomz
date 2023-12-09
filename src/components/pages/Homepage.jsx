@@ -79,26 +79,26 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                     <h2 className="mr-[5px] font-glacial text-white">Carousel</h2>
                 </motion.div>
                 <motion.div  animate={gridAnimation}  class="overflow-y-hidden xl:pb-[2%] lg:pb-[2%] md:pb-[2%] sm:pb-[2%] xs:pb-[12%]  ml-[6%]  bg-oran w-full h-auto xl:pt-[4.5%] md:pt-[5%] sm:pt-[8%]  lg:pt-[4.5%] xs:pt-[24%]" >
-                  <motion.img  whileHover={{scale:1.05}}  transition={{ type:'spring'}} src="src/assets/Images/IMG_0170.JPG" className='w-[15%] brightness-125 h-[42%] p-[7px] inline' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0172.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0244.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0245.jpg" className='w-[15%] brightness-[135%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0239.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0224.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0174.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0169.jpg" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0234.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0230.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0175.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0176.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0238.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0241.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0178.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0188.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0177.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0186.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0223.jpg" className='w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="src/assets/Images/IMG_0225.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img  whileHover={{scale:1.05}}  transition={{ type:'spring'}} src="public/assets/Images/IMG_0170.JPG" className='w-[15%] brightness-125 h-[42%] p-[7px] inline' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0172.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0244.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0245.jpg" className='w-[15%] brightness-[135%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0239.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0224.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0174.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0169.jpg" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0234.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0230.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0175.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0176.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0238.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0241.jpg" className='w-[26%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0178.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0188.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0177.jpg" className='w-[15%] brightness-[140%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0186.jpg" className='w-[15%] brightness-[130%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0223.jpg" className='w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="public/assets/Images/IMG_0225.jpg" className='w-[15%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                 </motion.div>
             </div>
         </>

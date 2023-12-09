@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'glacial';
-    src: url('src/assets/Fonts/glacial-indifference.regular.otf');
+    src: url('public/assets/Fonts/glacial-indifference.bold.otf');
 }
 
 @font-face {
     font-family: 'glacialBold';
-    src: url('src/assets/Fonts/glacial-indifference.bold.otf');
+    src: url('public/assets/Fonts/glacial-indifference.regular.otf');
 }
 
 .active{

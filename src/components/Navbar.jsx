@@ -9,12 +9,12 @@ export default function Navbar() {
         <>
             <motion.nav animate={{height:['0%','15%'], opacity:[0,1]}} transition={{duration:1, delay:1}} class="sticky z-10 bg-gray-200 top-0 w-full h-[15%]">
             <Link path to='/'>
-                <motion.img whileHover={{scale:1.05}} transition={{type:'spring', duration: .7}} alt="KB's Kustomz custom paint and autobody logo" className=" sm:w-[95px] text-white text-[8px] absolute top-[-4.8px] pb-[0px] xs:w-[65px] md:w-[110px] xl:w-[130px] lg:w-[130px] " src="src/assets/Images/Logo(1).png"></motion.img>
+                <motion.img whileHover={{scale:1.05}} transition={{type:'spring', duration: .7}} alt="KB's Kustomz custom paint and autobody logo" className=" sm:w-[95px] text-white text-[8px] absolute top-[-4.8px] pb-[0px] xs:w-[65px] md:w-[110px] xl:w-[130px] lg:w-[130px] " src="public/assets/Images/Logo(1).png"></motion.img>
             </Link>
             
                 <div class="flex items-center justify-end text-white font-glacialBold bg-black w-full h-[30%]">
                     <a class="inline " href="tel: 815-751-7039">
-                    <img src="src/assets/Icons/icons8-phone-50 (1).png" class="mb-[2px] mr-[10px] hover:scale-105 inline w-[12%]"></img>
+                    <img src="public/assets/Icons/icons8-phone-50 (1).png" class="mb-[2px] mr-[10px] hover:scale-105 inline w-[12%]"></img>
                     815-751-7039
                     </a>
                 </div>

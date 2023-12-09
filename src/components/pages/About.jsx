@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className='absolute bottom-[0] sm:right-0 xs:right-[5%] border-[2px] border-b-[0px] sm:p-[0px] xs:p-0 sm:w-[50%] xs:w-[90%] sm:mt-[0px] xs:mt-[0px] text-white'>
                     <h1 className='text-center border-b-[2px] text-[25px] font-glacialBold border-white  pb-1 '>Shop Hours</h1>
-                    <div className='  h-[24%] sm:text-[17px] xs:text-[15px]  grid grid-cols-2 grid-rows-7 gap-6'>
+                    <div className='  h-[24%] sm:text-[17px] xs:text-[15px]  grid grid-cols-2 grid-rows-7 sm:border-none xs:border-b-[2px] xs:border-solid border-white gap-6'>
                         <div className=' justify-center border-white border-r-[2px] pt-3 p-2 flex items-center font-glacial'><h1>Monday</h1></div>
                         <div className=' text-center border-white  p-2 pt-3 font-glacial'><h1>8am - 5pm</h1></div>
                         <div className=' justify-center border-white border-r-[2px] p-2 flex items-center font-glacial'><h1>Tuesday</h1></div>

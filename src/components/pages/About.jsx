@@ -5,9 +5,9 @@ const About = () => {
     return (
         <div className='w-full sm:h-[85%] xs:h-[85%]  flex bg-gray-800'>
             <motion.div animate={{ opacity: [0, 1] }} transition={{ duration: 1, delay: .5 }} className='w-[50%] sm:block xs:hidden h-full flex items-center justify-center'>
-                <img src="src/assets/Images/IMG_0237 copy.jpg" className=' absolute lg:w-[300px] sm:w-[295px]  xs:w-[160px] rounded-xl brightness-[115%] border-[5px] border-black left-[5%] sm:top-[19%] xs:top-[35%] rotate-[11deg] ' alt="" />
-                <img src="src/assets/Images/IMG_0244.jpg" className=' absolute lg:w-[320px] sm:w-[290px] xs:w-[170px] brightness-[115%] rounded-xl border-[5px] border-black lg:left-[15%] sm:top-[42%] xs:top-[50%] rotate-[-10deg] ' alt="" />
-                <img src="src/assets/Images/IMG_0241.jpg" className=' absolute lg:w-[310px] sm:w-[280px] xs:w-[165px] brightness-[115%] rounded-xl border-[5px] border-black left-[5%] sm:top-[66%] xs:top-[67%] rotate-[8deg] ' alt="" />
+                <img src="/images/IMG_0237 copy.jpg" className=' absolute lg:w-[300px] sm:w-[295px]  xs:w-[160px] rounded-xl brightness-[115%] border-[5px] border-black left-[5%] sm:top-[19%] xs:top-[35%] rotate-[11deg] ' alt="" />
+                <img src="/images/IMG_0244.jpg" className=' absolute lg:w-[320px] sm:w-[290px] xs:w-[170px] brightness-[115%] rounded-xl border-[5px] border-black lg:left-[15%] sm:top-[42%] xs:top-[50%] rotate-[-10deg] ' alt="" />
+                <img src="/images/IMG_0241.jpg" className=' absolute lg:w-[310px] sm:w-[280px] xs:w-[165px] brightness-[115%] rounded-xl border-[5px] border-black left-[5%] sm:top-[66%] xs:top-[67%] rotate-[8deg] ' alt="" />
             </motion.div>
             <motion.div animate={{ opacity: [0, 1] }} transition={{ duration: 1, delay: .5 }} className='sm:w-[50%] flex justify-center  h-full '>
                 <div className="sm:w-[75%] xs:w-[90%]  flex items-center justify-center p-8   h-[23%] sm:mt-20 xs:mt-[23%] shadow-2xl bg-white rounded-xl ">

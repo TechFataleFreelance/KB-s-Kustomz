@@ -68,6 +68,15 @@ const Carousel = (props) => {
         <img className="w-[100%] bg-[url('/images/IMG_0224.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
         <img className="w-[100%] bg-[url('/images/IMG_0174.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
         <img className="w-[100%] bg-[url('/images/IMG_0169.jpg')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+
+        <img className="w-[100%] bg-[url('/Images/image000003.JPG')] snap-center brightness-[120%] bg-center bg-contain bg-no-repeat h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image000005.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000004.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000022.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image000004.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image000006.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        
+       
       </div>
     </motion.div>
 

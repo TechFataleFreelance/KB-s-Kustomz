@@ -129,9 +129,9 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000003.JPG" className='w-[15%] brightness-[112%] h-[42%]  p-[7px] inline ' alt="" />
                   
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000005.JPG" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000000 4.JPG" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000004.JPG" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
                  
-                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000002 2.JPG" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
+                  <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000022.JPG" className='w-[15%] brightness-[132%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000004.JPG" className='w-[15%] brightness-[100%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.03}}  transition={{type:'spring'}} src="/Images/image000006.JPG" className='w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                  

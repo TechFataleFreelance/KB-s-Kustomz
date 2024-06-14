@@ -63,7 +63,7 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 <motion.iframe 
                 animate={{opacity:[0,1]}}
                 transition={{duration:1.5, delay:0.6}}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1525.927321868591!2d-89.59678379127288!3d41.38733613532469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88098ee5b6292f01%3A0x7097f7c48b058203!2sCounty%20Rd%201650%20N%2C%20Illinois!5e1!3m2!1sen!2sus!4v1701754849896!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3071.3134603148887!2d-89.5935451!3d41.3879585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88098fe3e725c8bf%3A0x2ae78e393bcc4d23!2sKB&#39;s%20Kustomz!5e1!3m2!1sen!2sus!4v1718405752306!5m2!1sen!2sus"
                 width="600" 
                 height="450"
                 class="rounded-[22px] xl:w-[600px] xl:h-[450px] lg:w-[450px] lg:h-[350px]  md:w-[400px] md:h-[360px] sm:w-[330px] sm:h-[300px] xs:w-[280px] xs:h-[200px]" ></motion.iframe>

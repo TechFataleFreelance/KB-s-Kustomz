@@ -19,7 +19,7 @@ const Footer = () => {
                     <h2 className='text-white flex  items-center font-sans  pl-[5%] w-full md:text-[16px] xs:text-[9.5px]'><span className='font-glacialBold xs:text-[16px] pr-[5px]'>Email:</span>korybrown24@gmail.com</h2>
                     <h2 className='text-white flex items-center pl-[5%] w-full md:text-[16px] xs:text-[13px]'><span className='font-glacialBold xs:text-[16px] pr-[5px]'>Phone Number:</span>815-751-7039</h2>
                     <h2 className='text-white flex items-center md:text-[18px] xs:text-[13px] pl-[5%] w-full'><span className=' xs:text-[16px] font-glacialBold pr-[5px]'>Address:</span>13845 1650 North Ave Wyanet, IL 61379</h2>
-                    <h2  className='text-white flex items-center pl-[5%] w-full text-[15px] underline active:text-gray-500'><a target="_blank"  href="https://maps.google.com/maps/dir//County+Rd+1650+N+Illinois/@41.3873341,-89.5954769,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x88098ee5b6292f01:0x7097f7c48b058203">Directions</a></h2>
+                    <h2  className='text-white flex items-center pl-[5%] w-full text-[15px] underline active:text-gray-500'><a target="_blank"  href="https://maps.app.goo.gl/1dE6g77TESzYCTZu6">Directions</a></h2>
                     <h2  className='text-white flex items-center pl-[5%] w-full text-[15px] underline active:text-gray-500 tracking-wider'><Link path to ="/about" >Shop Hours</Link></h2>
                 </div>
             </div>

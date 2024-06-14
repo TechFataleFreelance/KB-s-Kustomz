@@ -33,6 +33,23 @@ const Carousel = (props) => {
       <img onClick={handleLeft} src="/icons/icons8-arrow-64.png" className="hover:scale-110 hover:shadow-sm active:shadow-none active:scale-100 hover:shadow-black rounded-[100px] transition-all xl:bg-transparent lg:bg-transparent sm:bg-transparent md:bg-transparent xs:bg-white cursor-pointer absolute z-[9] w-[7%] xs:mt-[320px] xl:mt-[295px] lg:mt-[290px] md:mt-[270px] sm:mt-[255px] left-[15.5%] rotate-180 " alt="" />
       <img onClick={handleRight} src="/icons/icons8-arrow-64.png" className="hover:scale-110 hover:shadow-sm active:shadow-none active:scale-100 hover:shadow-black rounded-[100px] transition-all xl:bg-transparent lg:bg-transparent sm:bg-transparent md:bg-transparent xs:bg-white cursor-pointer absolute xl:mt-[295px] lg:mt-[290px] md:mt-[270px] sm:mt-[255px] z-[9] w-[7%] xs:mt-[320px] right-[17.5%]" alt="" />
       <div ref={carousel} className="absolute mt-[8%] z-[2] ml-[14%] w-[70%] h-[60%] snap-x snap-mandatory  overflow-x-auto overflow-y-visible no-scrollbar bg-gray-800 drop-shadow-2xl whitespace-nowrap">
+      
+        <img className="w-[100%] bg-[url('/Images/image0000009.JPG')] snap-center brightness-[120%] bg-center bg-contain bg-no-repeat h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000026.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000043.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000034.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000024.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000018.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000008.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image00000010.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000019.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image00000011.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000033.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000025.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000062.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000052.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000042.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000032.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
 
         <img className="w-[100%] bg-[url('/Images/image000001.JPG')] snap-center brightness-[120%] bg-center bg-contain bg-no-repeat h-[100%] inline "></img>
         <img className="w-[100%] bg-[url('/Images/image000002.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
@@ -79,6 +96,11 @@ const Carousel = (props) => {
         <img className="w-[100%] bg-[url('/Images/photo3.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
         <img className="w-[100%] bg-[url('/Images/photo1.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
        
+        <img className="w-[100%] bg-[url('/Images/image00000012.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000016.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        <img className="w-[100%] bg-[url('/Images/image0000006.JPG')] brightness-[120%] bg-center bg-contain bg-no-repeat snap-center h-[100%] inline "></img>
+        
+
       </div>
     </motion.div>
 

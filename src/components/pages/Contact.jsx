@@ -18,7 +18,7 @@ const Contact = () => {
                     <h1 className='md:text-[25px] sm:text-[16px] xs:text-[18px]'>Email: <br></br> <span className='text-gray-400 font-sans md:text-[25px] sm:text-[16px] xs:text-[10px]'>korybrown24@gmail.com</span> </h1>
                     <br></br>
                     <h1 className='md:text-[25px] sm:text-[18px] xs:text-[18px]'>Address: <br></br> <span className='text-gray-400 md:text-[25px] sm:text-[18px] xs:text-[14px]' >13845 1650 North Ave Wyanet, IL 61379</span> </h1>
-                    <a target="_blank" href="https://maps.google.com/maps/dir//County+Rd+1650+N+Illinois/@41.3873341,-89.5954769,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x88098ee5b6292f01:0x7097f7c48b058203"><span className='text-gray-400 text-[18px] underline'>Directions</span></a>
+                    <a target="_blank" href="https://maps.app.goo.gl/1dE6g77TESzYCTZu6"><span className='text-gray-400 text-[18px] underline'>Directions</span></a>
                 </div>
             </div>
         </motion.div>

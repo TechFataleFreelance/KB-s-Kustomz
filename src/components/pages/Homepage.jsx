@@ -94,20 +94,41 @@ const [scrollDisplay, setScrolldisplay] = useState('none')
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000024.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000018.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000008.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image00000010.JPG" className=' w-[26%]  h-[42%]  p-[7px] inline ' alt="" />
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000019.JPG" className=' w-[26%] brightness-[105%] h-[42%]  p-[7px] inline ' alt="" />
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image00000011.JPG" className=' w-[26%] brightness-[105%] h-[42%]  p-[7px] inline ' alt="" />
-                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000033.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000025.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000000 14.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000000 15.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                
+               
+
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000000 16.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000002 10.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000002 8.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+
+
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000000 18.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000001 11.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000002 7.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000001 10.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000000 13.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+
+
+
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000062.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000052.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
-                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000042.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                {/*<motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000052.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000042.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" /> */}
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000032.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                 
          
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000001.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                 <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image000002.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
 
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000033.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
+                <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/Images/image0000025.JPG" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
 
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/images/IMG_0244.jpg" className=' w-[26%] brightness-[125%] h-[42%]  p-[7px] inline ' alt="" />
                   <motion.img whileHover={{scale:1.05}}  transition={{type:'spring'}} src="/images/IMG_0245.jpg" className='w-[15%] brightness-[135%] h-[42%]  p-[7px] inline ' alt="" />
